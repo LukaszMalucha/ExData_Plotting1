@@ -11,4 +11,4 @@ Consumption <- Consumption %>% select(V3) %>% mutate(V3 = as.numeric(as.characte
 ## Plot 1:
 
 hist(Consumption$V3, col = "red", main = "Global Active Power",
-     xlab = "Global Active Power (killowatts)", ylab = "Frequency")`
+   xlab = "Global Active Power (killowatts)", ylab = "Frequency") 
